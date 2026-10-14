@@ -1,0 +1,24 @@
+#   
+#  >= 
+#
+# : pip install -r requirements.txt
+#
+# dlib  C++ pip  CMake  C++ 
+#    Windows  conda: conda install -c conda-forge dlib
+
+dlib>=20.0.1          #  20.0.1   / 68  / 128 
+scikit-learn>=1.5     #  1.7.1   SVC / RandomForest / MLP / 
+numpy>=2.0            #  2.3.2
+pandas>=2.2           #  2.3.2
+joblib>=1.4           #  1.5.2   
+Pillow>=10.0          #  11.3.0   alpha  PNG
+
+# src/reproduce_paper.pyXGBoost
+# train_final.py / predict.py
+xgboost>=2.0
+
+# FastAPI frontend service
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+shap>=0.46
